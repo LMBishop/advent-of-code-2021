@@ -1,18 +1,22 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
-    kotlin("jvm") version "1.5.10"
+    base
+    kotlin("jvm") version "1.5.10" apply false
 }
 
-group = "com.leonardobishop.adventofcode"
-version = "1.0-SNAPSHOT"
+allprojects {
 
-repositories {
-    mavenCentral()
+    group = "org.gradle.kotlin.dsl.samples.multiproject"
+
+    version = "1.0"
+
+    repositories {
+        mavenCentral()
+    }
 }
 
-
-
-tasks.withType<KotlinCompile>() {
-    kotlinOptions.jvmTarget = "13"
+dependencies {
+    // Make the root project archives configuration depend on every subproject
+    subprojects.forEach {
+        archives(it)
+    }
 }
