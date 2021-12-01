@@ -4,7 +4,7 @@ import java.io.File
 
 fun main() {
     val list = mutableListOf<Int>()
-    File("input.txt").useLines { lines -> lines.forEach { list.add(it.toInt()) }}
+    File("aoc01/src/main/resources/input.txt").useLines { lines -> lines.forEach { list.add(it.toInt()) }}
     part1(list)
     part2(list)
 }
