@@ -5,11 +5,11 @@ import java.io.File
 fun main() {
     val list = mutableListOf<String>()
     File("input.txt").useLines { lines -> lines.forEach { list.add(it) }}
-    part1(list)
-    part2(list)
+    partOne(list)
+    partTwo(list)
 }
 
-fun part1(list: List<String>) {
+fun partOne(list: List<String>) {
     var hor = 0
     var depth = 0
     for (line in list) {
@@ -32,7 +32,7 @@ fun part1(list: List<String>) {
     println(hor*depth)
 }
 
-fun part2(list: List<String>) {
+fun partTwo(list: List<String>) {
     var hor = 0
     var depth = 0
     var aim = 0
