@@ -9,7 +9,9 @@ cd ..
 echo "==> Starting gradle"
 
 if ./gradlew aoc"$1":build; then
-  echo "==> Running jar"
-  cd work
-  java -jar ../aoc"$1"/build/libs/aoc"$1"-1.0.jar
+    cd work
+    echo "==> Copying test file"
+    cp ../aoc"$1"/src/main/resources/input.txt input.txt
+    echo "==> Running jar"
+    java -Xmx8G -jar ../aoc"$1"/build/libs/aoc"$1"-1.0.jar
 fi
