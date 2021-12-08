@@ -15,6 +15,7 @@ Since each solution is an entire Gradle submodule, here are quick links to each 
 | [Day 05](https://adventofcode.com/2021/day/5): Hydrothermal Venture    | [Day05.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc05/src/main/kotlin/com/leonardobishop/adventofcode/Day05.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc05/src/main/resources/input.txt) |
 | [Day 06](https://adventofcode.com/2021/day/6): Lanternfish             | [Day06.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc06/src/main/kotlin/com/leonardobishop/adventofcode/Day06.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc06/src/main/resources/input.txt) |
 | [Day 07](https://adventofcode.com/2021/day/7): The Treachery of Whales | [Day07.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc07/src/main/kotlin/com/leonardobishop/adventofcode/Day07.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc07/src/main/resources/input.txt) |
+| [Day 08](https://adventofcode.com/2021/day/8): Seven Segment Search    | [Day08.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc08/src/main/kotlin/com/leonardobishop/adventofcode/Day08.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc08/src/main/resources/input.txt) |
 
 ## Building and testing
 To clone the repository:
