@@ -18,6 +18,7 @@ Since each solution is an entire Gradle submodule, here are quick links to each 
 | [Day 08](https://adventofcode.com/2021/day/8): Seven Segment Search     | [Day08.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc08/src/main/kotlin/com/leonardobishop/adventofcode/Day08.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc08/src/main/resources/input.txt) |
 | [Day 09](https://adventofcode.com/2021/day/9): Smoke Basin              | [Day09.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc09/src/main/kotlin/com/leonardobishop/adventofcode/Day09.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc09/src/main/resources/input.txt) |
 | [Day 10](https://adventofcode.com/2021/day/10): Syntax Scoring          | [Day10.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc10/src/main/kotlin/com/leonardobishop/adventofcode/Day10.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc10/src/main/resources/input.txt) |
+| [Day 11](https://adventofcode.com/2021/day/11): Dumbo Octopus           | [Day11.kt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc11/src/main/kotlin/com/leonardobishop/adventofcode/Day11.kt) | [input.txt](https://github.com/LMBishop/advent-of-code-2021/blob/master/aoc11/src/main/resources/input.txt) |
 
 ## Building and testing
 To clone the repository:
