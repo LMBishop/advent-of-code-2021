@@ -8,7 +8,9 @@ fi
 cd ..
 echo "==> Starting gradle"
 
-if ./gradlew aoc"$1":build; then
+[ -z "$2" ] && cmd="./gradlew aoc$1:build" || cmd="./gradlew aoc$1:build -Pvisualisation=true"
+
+if eval $cmd; then
     cd work
     echo "==> Copying test file"
     cp ../aoc"$1"/src/main/resources/input.txt input.txt

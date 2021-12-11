@@ -27,8 +27,11 @@ subprojects {
     }
 
     tasks.jar {
+        val filePrefix = if (project.hasProperty("visualisation")) "visualisation." else ""
+        val fileSuffix = if (project.hasProperty("visualisation")) "VisualisationKt" else "Kt"
         manifest {
-            attributes["Main-Class"] = "com.leonardobishop.adventofcode.Day${ if (ext.has("dayCode")) ext["dayCode"] else "00" }Kt"
+            attributes["Main-Class"] =
+                "com.leonardobishop.adventofcode.${filePrefix}Day${ if (ext.has("dayCode")) ext["dayCode"] else "00" }$fileSuffix"
         }
         configurations["compileClasspath"].forEach { file: File ->
             from(zipTree(file.absoluteFile))
